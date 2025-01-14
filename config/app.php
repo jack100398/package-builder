@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Facade;
+use Packages\CommandAdvancement\AdvancementServiceProvider;
 use Packages\UpgradeTool\MessageHookServiceProvider;
 
 return [
@@ -187,6 +188,7 @@ return [
          * Package Service Providers...
          */
         MessageHookServiceProvider::class,
+        AdvancementServiceProvider::class,
 
         /*
          * Application Service Providers...

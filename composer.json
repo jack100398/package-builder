@@ -25,7 +25,8 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
-            "Packages\\UpgradeTool\\": "packages/UpgradeTool/src"
+            "Packages\\UpgradeTool\\": "packages/UpgradeTool/src",
+            "Packages\\CommandAdvancement\\": "packages/CommandAdvancement/src"
         }
     },
     "autoload-dev": {

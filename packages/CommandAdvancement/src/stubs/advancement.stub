@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Console\Advancements;
+
+use XinYin\CommandAdvancement\Advancement;
+
+return new class extends Advancement
+{
+    /**
+     * 執行指令
+     *
+     * @return void
+    */
+    public function run(): void
+    {
+        // exec('php artisan inspire');
+    }
+};
